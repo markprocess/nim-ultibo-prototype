@@ -21,9 +21,6 @@ proc write(x: int) =
     write(x div 10)
     write(x mod 10)
 
-#var
-#  s = "a" & "b"
-
 proc nimMain {.exportc.} =
   var last= -1
   var now = -1
